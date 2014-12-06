@@ -7,6 +7,7 @@ footer{
 	border-top: #d6d6d6 solid .1em;
 	padding: 1.5em;
 	text-align: center;
+	margin-top: 1em;
 }
 footer .footerText{
 	color: #adadad;
@@ -19,6 +20,7 @@ footer .bold{
 }
 header{
 	border-bottom: #d6d6d6 solid .1em;
+	margin-bottom: 1em;
 }
 .itemMenu{
 	text-decoration: none;
@@ -42,7 +44,7 @@ header{
 	display: inline-block;
 	height: 100px;
 	width:  110px;
-	margin: 0 0 0 4em;
+	margin: 0 0 0 2em;
 	background-color: #22bdbd;
 }
 .menu{
@@ -61,4 +63,27 @@ header{
 }
 .sectionApps{
 	text-align: center;
+}
+.showApp{
+	margin: 0em auto;
+	padding: 4em;
+	display: inline-block;
+}
+.showApp:hover{
+	background-color: #e0e0e0;
+	margin: 0em auto;
+	padding: 4em;
+	display: inline-block;
+}
+.imageApp{
+	width: 300px;
+	height: 300px;
+	border-radius: 23%;
+	background-image: url();
+	background-color: gray;
+	background-position: center;
+	margin: 0em auto;
+}
+.imageApp img{
+	width: 400px;
 }
