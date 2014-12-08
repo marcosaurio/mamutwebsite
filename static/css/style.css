@@ -33,8 +33,6 @@ header{
 	border-style: solid;
     border-width: 0px;
     border-bottom-width: 4px;
-    text-decoration: none;
-    color: #000000;
 }
 .logo{
 	background-image: url("../image/a.png");
@@ -68,6 +66,20 @@ header{
 	margin: 0em auto;
 	padding: 4em;
 	display: inline-block;
+}
+.idioma{
+	right: 0;
+	position: absolute;
+	text-align: right;
+	padding: 2.5em 2.5em 0 0;
+}
+.leng{
+	text-decoration: none;
+	color: black;
+	padding-left: .5em;
+}
+.leng:hover{
+	color: #22bdbd;
 }
 .showApp:hover{
 	background-color: #e0e0e0;
