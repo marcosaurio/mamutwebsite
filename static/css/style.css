@@ -1,32 +1,32 @@
 body{
-	font-size: 16px;
 	color: black;
-	font-family: Arial;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
 }
 footer{
 	border-top: #d6d6d6 solid .1em;
+	margin-top: 3em;
 	padding: 1.5em;
 	text-align: center;
-	margin-top: 1em;
 }
 footer .footerText{
 	color: #adadad;
 	font-size: 15px;
 }
 footer .bold{
-	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	text-decoration: none;
 }
 header{
 	border-bottom: #d6d6d6 solid .1em;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 }
 .itemMenu{
-	text-decoration: none;
 	color: black;
-	font-weight: bold;
 	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
 }
 .itemMenu:hover, .bold:hover{
 	border-color: #22bdbd;
@@ -63,9 +63,9 @@ header{
 	text-align: center;
 }
 .showApp{
-	margin: 0em auto;
-	padding: 4em;
+	padding: 3em;
 	display: inline-block;
+
 }
 .idioma{
 	right: 0;
@@ -83,19 +83,21 @@ header{
 }
 .showApp:hover{
 	background-color: #e0e0e0;
-	margin: 0em auto;
-	padding: 4em;
-	display: inline-block;
 }
-.imageApp{
-	width: 300px;
-	height: 300px;
-	border-radius: 23%;
+.bache{
 	background-image: url("../image/example.png");
+}
+
+.imageApp{
+	width: 260px;
+	height: 260px;
+	border-radius: 23%;
 	background-size: cover;
-	background-color: gray;
 	background-position: center;
-	margin: 0em auto;
+}
+.catch{
+	border: #d6d6d6 solid .1em;
+	background-image: url("../image/catch.png");
 }
 
 /*Us*/
@@ -104,11 +106,11 @@ header{
 	text-align: center;
 }
 .sectionUsText{
-	padding: 6em 0; 
 	font-size: 18px;
 	margin: auto;
-	width: 608px;
+	padding: 5.4em 0; 
 	text-align: justify;
+	width: 608px;
 }
 .sectionUsText a{
 	text-decoration: none;
